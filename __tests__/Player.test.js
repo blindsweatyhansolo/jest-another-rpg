@@ -1,4 +1,7 @@
 const Player = require('../lib/Player');
+const Potion = require('../lib/Potion');
+
+jest.mock('../lib/Potion.js');
 
 // checks if creating a new player object returns specified values
 test('creates player object', () => {
